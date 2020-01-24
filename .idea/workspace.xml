@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c51882-8d15-41c1-b9a3-4ac2a54089e2" name="Default Changelist" comment="" />
+    <list default="true" id="c4c51882-8d15-41c1-b9a3-4ac2a54089e2" name="Default Changelist" comment="enum use">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/main/java/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/main/java/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/main/java/WorkCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/main/java/WorkCalc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkCalc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +18,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1Wki5Vd5HQRoT63O7ak54RW7QQX" />
   <component name="ProjectViewState">
@@ -22,9 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../simplespark-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Иск.инт,лог.прогр/Calculator-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,37 +85,50 @@
       <option name="presentableId" value="Default" />
       <updated>1579699810330</updated>
       <workItem from="1579699814433" duration="3179000" />
+      <workItem from="1579785342781" duration="4866000" />
+      <workItem from="1579826342209" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Project_Structure" timestamp="1579700121445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579700121445" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1579702598738">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579787034555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579702598738" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1579702999675">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579787034555" />
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1579826461946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579702999675" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1579702999675">
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579826461946" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1579826475224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579702999675" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1579702999675">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579826475224" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579826068123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579702999675" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1579702999675">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579826068123" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579826068123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579702999675" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579826068123" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579826068122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579826068122" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579826068123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579826068123" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1579702999676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -123,5 +149,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579702991581" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579826348902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579826348902" />
+    <state x="494" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579826373451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1579826373451" />
   </component>
 </project>

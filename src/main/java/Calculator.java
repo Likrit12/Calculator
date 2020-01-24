@@ -1,16 +1,34 @@
 package main.java;
 
-public class Calculator {
-    public int  plus (int a, int b) {
-        return a+b;
+public enum Calculator {
+    PLUS("+") {
+        double apply(int x, int y) {
+            return x + y;
+        }
+    },
+    MINUS("-") {
+        double apply(int x, int y) {
+            return x - y;
+        }
+    },
+    TIMES("*") {
+        double apply(int x, int y) {
+            return x * y;
+        }
+    },
+    DIVIDE("/") {
+        double apply(int x, int y) {
+            return (double)x / y;
+        }
+    };
+    private final String symbol;
+    Calculator(String symbol) {
+        this.symbol = symbol;
     }
-    public int minus (int a, int b){
-        return a-b;
+
+    @Override
+    public String toString() {
+        return symbol;
     }
-    public double del(int a, int b){
-        return (double)a/b;
-    }
-    public int multiply(int a, int b){
-        return a*b;
-    }
+    abstract double apply(int x, int y);
 }
